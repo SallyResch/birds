@@ -17,7 +17,8 @@ app.get("/", (req, res) => {
 		{
 			title: "Welcome to my Birds page",
 			headerTitle: "HeaderTitle from header component",
-			subtitle: "Subtitle from headerComponent"
+			subtitle: "Subtitle from headerComponent",
+			test: true
 		}
 	);
 });
