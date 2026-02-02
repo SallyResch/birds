@@ -1,27 +1,31 @@
-*{
+* {
 	box-sizing: border-box;
 	margin: 0;
 }
 
-html{
+html {
 	height: 100vh;
 }
 
-body{
+body {
 	background-color: lightseagreen;
 	text-align: center;
 }
 
-.birdBody{
+.main {
+	height: 100%;
+}
+
+.birdBody {
 	background-color: lightcoral;
 }
 
-.header{
+.header {
 	background-color: gray;
 	height: 90px;
 }
 
-.shoeBill{
+.shoeBill {
 	width: 50%;
 	height: 50%;
 }

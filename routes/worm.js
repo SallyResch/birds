@@ -11,7 +11,8 @@ wormRouter.get("/", (req, res) => {
 			title: "Worms",
 			subTitle: "subtitle Worms",
 			headerTitle: "HeaderTitle from header component",
-			subtitle: "Subtitle from headerComponent"
+			subtitle: "Subtitle from headerComponent",
+			docTitle: "Worms"
 		}
 	);
 })
