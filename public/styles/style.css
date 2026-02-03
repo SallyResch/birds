@@ -16,6 +16,14 @@ body {
 	height: 100%;
 }
 
+.underline {
+	text-decoration: underline;
+}
+
+.no-underline {
+	text-decoration: none;
+}
+
 .birdBody {
 	background-color: lightcoral;
 }

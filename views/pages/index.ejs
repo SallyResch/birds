@@ -14,6 +14,10 @@
         migrate thousands of kilometers each year to find food and breeding
         grounds.
       </p>
+      <% if (underlineThis) { %>
+        <p>You cant see this if the variable if false</p>
+     <% } %>
+      <div class=<%= underlineThis ? "underline" : "no-underline" %>>Thanks for visiting</div>
     </main>
     <%- include("../components/footer.ejs") %>
 </body>

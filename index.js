@@ -13,15 +13,15 @@ app.set("View engine", "ejs")
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-	res.render(path.join(__dirname, "/views/pages/index.ejs"),
-		{
-			title: "Welcome to my Birds page",
-			headerTitle: "HeaderTitle from header component",
-			subtitle: "Subtitle from headerComponent",
-			test: true,
-			docTitle: "Home"
-		}
-	);
+  res.render(path.join(__dirname, "/views/pages/index.ejs"),
+    {
+      title: "Welcome to my Birds page",
+      headerTitle: "HeaderTitle from header component",
+      subtitle: "Subtitle from headerComponent",
+      underlineThis: false,
+      docTitle: "Home"
+    }
+  );
 });
 
 app.use("/bird", birdRouter);
