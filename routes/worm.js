@@ -6,15 +6,14 @@ const __dirname = path.resolve();
 
 
 wormRouter.get("/", (req, res) => {
-	res.render(path.join(__dirname, "/views/pages/worm.ejs"),
-		{
-			title: "Worms",
-			subTitle: "subtitle Worms",
-			headerTitle: "HeaderTitle from header component",
-			subtitle: "Subtitle from headerComponent",
-			docTitle: "Worms"
-		}
-	);
+  res.render(path.join(__dirname, "/views/pages/worm.ejs"),
+    {
+      title: "Worms",
+      headerTitle: "Worms",
+      subtitle: "Subtitle from headerComponent",
+      docTitle: "Worms"
+    }
+  );
 })
 
 export default wormRouter;

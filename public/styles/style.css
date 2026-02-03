@@ -4,16 +4,19 @@
 }
 
 html {
-	height: 100vh;
+	height: 100%;
 }
 
 body {
 	background-color: lightseagreen;
 	text-align: center;
+	height: 100%;
 }
 
 .main {
 	height: 100%;
+	width: 90%;
+	margin: auto;
 }
 
 .underline {
@@ -36,4 +39,13 @@ body {
 .shoeBill {
 	width: 50%;
 	height: 50%;
+}
+
+.header {
+	background-color: lightgreen;
+}
+
+.footer {
+	background-color: lightgreen;
+	padding: 20px;
 }

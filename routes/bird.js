@@ -9,15 +9,13 @@ birdRouter.get("/", (req, res) => {
 	res.render(path.join(__dirname, "/views/pages/bird.ejs"),
 		{
 			title: "Birds",
-			subTitle: "subtitle birds",
 			image: "shoeBill",
 			className: "birdBody",
-			headerTitle: "HeaderTitle from header component",
+			headerTitle: "Birds",
 			subtitle: "Subtitle from headerComponent",
 			docTitle: "Birds"
 		}
 	);
 })
-
 
 export default birdRouter;

@@ -1,8 +1,7 @@
 <%- include("../components/head.ejs")%>
   <body class="<%= className %>">
+    <%- include("../components/header.ejs") %>
     <main class="main">
-      <%- include("../components/header.ejs") %>
-      <p><%= subTitle %></p>
       <img
         class="<%= image %>"
         src="/images/Shoebill.webp"
@@ -10,7 +9,7 @@
         height="800"
         width="1200"
       />
-      <%- include("../components/footer.ejs") %>
     </main>
+    <%- include("../components/footer.ejs") %>
   </body>
 </html>
