@@ -13,7 +13,8 @@ birdRouter.get("/", (req, res) => {
 			className: "birdBody",
 			headerTitle: "Birds",
 			subtitle: "Subtitle from headerComponent",
-			docTitle: "Birds"
+			docTitle: "Birds",
+			birdList: birdBreeds
 		}
 	);
 })

@@ -3,7 +3,10 @@
     <%- include("../components/header.ejs") %>
     <main class="main">
       <div class="main-content">
-        <p>hello</p>
+        <p>Worm list:</p>
+          <% if(locals.wormList) {%>
+        <%- include("../components/wormList.ejs") %>
+      <%} %>
       </div>
     </main>
     <%- include("../components/footer.ejs") %>

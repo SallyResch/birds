@@ -9,6 +9,9 @@
         height="800"
         width="1200"
       />
+      <% if(locals.birdList) {%>
+        <%- include("../components/birdList.ejs") %>
+      <%} %>
     </main>
     <%- include("../components/footer.ejs") %>
   </body>
