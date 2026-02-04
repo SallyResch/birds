@@ -2,10 +2,10 @@ import express from "express";
 import * as path from "path";
 import birdRouter from "./routes/bird.js";
 import wormRouter from "./routes/worm.js";
-//import { escapeXML } from "ejs";
+import 'dotenv/config'
 
 const app = express();
-const port = 3456;
+const port = process.env.PORT;
 const __dirname = path.resolve();
 
 app.set("View engine", "ejs")
