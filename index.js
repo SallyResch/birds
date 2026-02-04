@@ -8,7 +8,7 @@ const app = express();
 const port = process.env.PORT;
 const __dirname = path.resolve();
 
-app.set("View engine", "ejs")
+app.set("view engine", "ejs")
 
 app.use(express.static("public"));
 
