@@ -33,6 +33,14 @@ body {
 	height: 100%;
 }
 
+.sidebar {
+	padding: 20px;
+}
+
+.para {
+	margin-bottom: 15px;
+}
+
 .underline {
 	text-decoration: underline;
 }
