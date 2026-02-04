@@ -2,6 +2,7 @@ import express from "express";
 import * as path from "path";
 import birdRouter from "./routes/bird.js";
 import wormRouter from "./routes/worm.js";
+import zooRouter from "./routes/zoo.js";
 import 'dotenv/config'
 
 const app = express();
@@ -26,6 +27,7 @@ app.get("/", (req, res) => {
 
 app.use("/bird", birdRouter);
 app.use("/worm", wormRouter);
+app.use("/zoo", zooRouter);
 
 app.listen(port, () => console.log(`flying over the vast landscape and looking down on ${port}`))
 

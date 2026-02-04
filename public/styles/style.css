@@ -19,6 +19,28 @@ body {
 	margin: auto;
 }
 
+.main-zoo {
+	height: 100%;
+	margin: auto;
+}
+
+.main-div {
+	width: 100%;
+}
+
+.flex-div {
+	display: flex;
+	height: 100%;
+}
+
+.sidebar {
+	padding: 20px;
+}
+
+.para {
+	margin-bottom: 15px;
+}
+
 .underline {
 	text-decoration: underline;
 }
@@ -43,6 +65,10 @@ body {
 
 .header {
 	background-color: lightgreen;
+}
+
+.sidebar-div {
+	background-color: lightslategray;
 }
 
 .footer {
