@@ -24,6 +24,10 @@ body {
 	margin: auto;
 }
 
+.main-div {
+	width: 100%;
+}
+
 .flex-div {
 	display: flex;
 	height: 100%;
