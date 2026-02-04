@@ -1,6 +1,6 @@
 import express from "express";
 import * as path from "path";
-
+import { birdBreeds } from "../data/birdBreeds.js";
 const birdRouter = express.Router()
 const __dirname = path.resolve();
 

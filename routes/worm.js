@@ -1,6 +1,6 @@
 import express from "express";
 import * as path from "path";
-
+import { worms } from "../data/birdBreeds.js";
 const wormRouter = express.Router()
 const __dirname = path.resolve();
 
