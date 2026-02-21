@@ -59,8 +59,8 @@ body {
 }
 
 .shoeBill {
-	width: 50%;
-	height: 50%;
+	width: 250px;
+	height: 200px;
 }
 
 .header {
@@ -69,6 +69,10 @@ body {
 
 .sidebar-div {
 	background-color: lightslategray;
+}
+
+.birdlist-component {
+	text-align: start;
 }
 
 .footer {

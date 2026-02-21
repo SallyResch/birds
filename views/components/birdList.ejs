@@ -1,9 +1,6 @@
-<h4>Bird:</h4>
+<div class="birdlist-component">
+<h4>Birds:</h4>
 	<% birdList.forEach(bird => { %>
-		<hr>
-		<p>Name: <%= bird.name %></p>
-		<p>Type: <%= bird.type %></p>
-		<p>Wingspan: <%= bird.wingspan %></p>
-		<p>Attitude: <%= bird.attitude %></p>
-		<hr>
-<% }) %>
+		<p><%= bird.name %></p>
+	<% }) %>
+</div>
